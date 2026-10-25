@@ -41,3 +41,31 @@ app-example
 # generated native folders
 /ios
 /android
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+serviceAccountKey*.json
+firebase-admin*.json
+# Generated project structure reports
+/frontend-structure-full.txt
+/frontend-structure.txt
+/real-frontend-files.txt
+/structure.txt
+/tree.txt
+/customer_screens.txt
+# Accidental empty files
+/({
+/{
+/console.log('Error
+/findstr
+/npx
+# Local reports and generated files
+/frontend-structure-full.txt
+/frontend-structure.txt
+/real-frontend-files.txt
+/structure.txt
+/tree.txt
+/customer_screens.txt
+# Debug signing key
+*.keystore
